@@ -6,6 +6,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="src/output.css" rel="stylesheet">
     <title>Web Doyys Store</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.css">
 </head>
 <body>
     <!-- PROMOTION -->
@@ -37,28 +39,49 @@
         <span class="text-sm font-medium"> Cara Belanja </span>
         </a>
 
-        <a href="https://wa.me/6283148299557?text=Mauu Beli Dongs Admin Doyys Store"
+        <a href="https://wa.me/6293148299557?text=Mauu Beli Dongs Admin Doyys Store"
           class="inline-block rounded bg-teal-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-sky-700 focus:outline-none focus:ring"
           type="button"
         >
           Chat Admin
       </a>
+
+      <div class="cart-icons">
+        <a href="" class="mx-0"><svg class="w-6 h-6 text-gray-800 dark:text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" d="M4 4a1 1 0 0 1 1-1h1.5a1 1 0 0 1 .979.796L7.939 6H19a1 1 0 0 1 .979 1.204l-1.25 6a1 1 0 0 1-.979.796H9.605l.208 1H17a3 3 0 1 1-2.83 2h-2.34a3 3 0 1 1-4.009-1.76L5.686 5H5a1 1 0 0 1-1-1Z" clip-rule="evenodd"/>
+        </svg>
+      </a>
+      </div>
       </div>
     </div>
   </div>
+
+  <!-- Shopping cart -->
+  <!-- <div class="shopping-cart">
+    <div class="cart-item">
+      <img src="" alt="">
+      <div class="item-detail">
+        <h3>product 1</h3>
+        <div class="item-price">idr 30k</div>
+      </div>
+      <i data-feather="trash-2" class="remove-item"></i>
+    </div>
+  </div> -->
+  <!-- End Shopping cart -->
     </header>
     <!-- END HEADER -->
 
     <!-- ACTION -->
-    <section class="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
+    
+    <section class="overflow-hidden bg-gray-100 sm:grid sm:grid-cols-2">
     <div class="p-8 md:p-12 lg:px-16 lg:py-24">
     <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
       <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
         ABOUT US
       </h2>
 
-      <p class=" text-grey-500shadow  md:mt-4 md:block">
-        Doyys Store adalah tempat yang sempurna untuk berkumpul bersama teman, keluarga, atau rekan kerja. Kami menyediakan ruang yang nyaman dan inspiratif untuk berdiskusi, berkolaborasi, atau sekadar menghabiskan waktu bersama.
+      <p class="text-grey-500shadow  md:mt-4 md:block">
+        Doyys Store is the perfect place to gather with friends, family, or colleagues. We provide a comfortable and inspiring space to discuss, collaborate, or just spend time together.
       </p>
       <div class="mt-4 md:mt-8">
         <a
@@ -69,7 +92,7 @@
         </a>
         <input
             type="text"
-            placeholder="cari apa aja"
+            placeholder="Search Your Favorite Menu"
             class="mt-5 w-full rounded-md border-gray-500 bg-gray-300 p-3 text-gray-900 shadow-sm transition focus:border-white focus:outline-none focus:ring focus:ring-teal-500 py-3"
           />
       </div>
@@ -82,16 +105,47 @@
     class="rounded-l-lg h-56 w-full object-cover sm:h-full"
   />
     </section>
+    
+    <!-- <section class="bg-gray-100 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1694273748002-5ecb321d91ec?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+  <div class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
+    <div class="mx-auto max-w-xl text-center">
+      <h1 class="bg-gray-50 block rounded text-3xl font-extrabold sm:text-5xl">
+        Understand User Flow.
+        <strong class="font-extrabold text-teal-700 sm:block"> Increase Conversion. </strong>
+      </h1>
+
+      <p class="mt-4 sm:text-xl/relaxed">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus
+        numquam ea!
+      </p>
+
+      <div class="mt-8 flex flex-wrap justify-center gap-4">
+        <a
+          class="block rounded bg-teal-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-sky-700 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
+          href="#"
+        >
+          Get Started
+        </a>
+
+        <a
+          class="bg-gray-100 block rounded px-12 py-3 text-sm font-medium text-teal-600 shadow hover:text-sky-700 focus:outline-none focus:ring active:text-red-500 sm:w-auto"
+          href="#"
+        >
+          Learn More
+        </a>
+      </div>
+    </div>
+  </div>
+    </section> -->
     <!-- END ACTION -->
 
     <!-- LIST PRODUCT -->
-    <div class="container mx-auto py-8">
-      <h1 class="text-2xl font-bold text-gray-900 sm:text-3xl">MENU DRINK & FOOD</h1>
+    <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+      <h1 class="text-3xl font-bold text-gray-900 ">See Our Menu</h1>
     </div>
-    <div class="container grid grid-cols-4 gap-4 mx-auto py-8"> <!--max-w-xl-->
-
+    <div class="container grid grid-cols-4 gap-4 mx-auto px-3"> <!--max-w-xl-->
       <!-- LATTE ART -->
-      <a href="https://wa.me/6283148299557?text=Hallo MinDoyys mau pesen Latte Art dongss." class="group block">
+      <a href="https://wa.me/6293148299557?text=Hallo MinDoyys mau pesen Latte Art dongss." class="group block">
   <img
     src="https://images.unsplash.com/photo-1534234757579-8ad69d218ad4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     alt=""
@@ -103,12 +157,14 @@
       Latte Art
     </h3>
     <p class=" text-sm text-gray-900">Hot / Ice</p>
-    <p class="mt-2 text-sm text-gray-700">Rp. 30.000</p>
+    <p class=" mt-1 text-sm text-gray-700">Rp. 30.000</p>
+    
+    <div class="chart"><i data-feather="shopping-cart"></i></div>
   </div>
       </a>
 
       <!-- AMERICANO COFFE -->
-      <a href="https://wa.me/6283148299557?text=Hallo MinDoyys mau pesen Americano Coffee dongss." class="group block">
+      <a href="https://wa.me/6293148299557?text=Hallo MinDoyys mau pesen Americano Coffee dongss." class="group block">
   <img
     src="https://images.unsplash.com/photo-1551030173-122aabc4489c?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     alt=""
@@ -126,7 +182,7 @@
       </a>
 
       <!-- COFFE MILD -->
-      <a href="https://wa.me/6283148299557?text=Hallo MinDoyys mau pesen Coffee Mild dongss." class="group block">
+      <a href="https://wa.me/6293148299557?text=Hallo MinDoyys mau pesen Coffee Mild dongss." class="group block">
   <img
     src="https://images.unsplash.com/photo-1563269115-2a54e5697482?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     alt=""
@@ -138,13 +194,13 @@
       Coffee Mild
     </h3>
 
-    <p class=" text-sm text-gray-900">Hot / Ice</p>
+    <p class="text-sm text-gray-900">Hot / Ice</p>
     <p class="mt-1 text-sm text-gray-700">Rp. 30.000</p>
   </div>
       </a>
 
       <!-- ESPRESSO -->
-      <a href="https://wa.me/6283148299557?text=Hallo MinDoyys mau pesen Espresso dongss." class="group block">
+      <a href="https://wa.me/6293148299557?text=Hallo MinDoyys mau pesen Espresso dongss." class="group block">
   <img
     src="https://images.unsplash.com/photo-1610889556528-9a770e32642f?q=80&w=1615&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     alt=""
@@ -170,11 +226,14 @@
   />
 
   <div class="mt-3">
-    <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+      <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
       Pancake
     </h3>
-
+    <p>Soft, fluffy</p>
     <p class="mt-1 text-sm text-gray-700">Rp. 50.000</p>
+    <!-- <p class="text-gray-900">Simple, fluffy, topped with the best syrup, butter and fruit..</p> -->
+    
+
   </div>
       </a>
 
@@ -190,7 +249,8 @@
     <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
       Sandwich
     </h3>
-
+    <p>flexible</p>
+    <!-- <p class="text-gray-900">The classic combination of chicken, egg, lettuce, tomato and mayonnaise between whole wheat bread.</p> -->
     <p class="mt-1 text-sm text-gray-700">Rp. 40.000</p>
   </div>
       </a>
@@ -207,13 +267,14 @@
     <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
       Burger Beef
     </h3>
-
+    <p>Savor the Flavor</p>
+    <!-- <p class="text-gray-900">A dish consisting of a beef patty that is formed into a flat circle, then cooked and placed between two slices of bread.</p> -->
     <p class="mt-1 text-sm text-gray-700">Rp. 35.000</p>
   </div>
       </a>
 
       <!-- SPAGHETI -->
-      <a href="https://wa.me/6283148299557?text=Hallo MinDoyys mau pesen Spagheti dongss." class="group block">
+      <a href="https://wa.me/6293148299557?text=Hallo MinDoyys mau pesen Spagheti dongss." class="group block">
   <img
     src="https://plus.unsplash.com/premium_photo-1674511582428-58ce834ce172?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     alt=""
@@ -224,7 +285,8 @@
     <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
       Spaghetti
     </h3>
-
+    <p>Love in every bite</p>
+    <!-- <p class="text-gray-900">A type of pasta made from durum wheat flour and water. Its characteristic is its long, thin, cylindrical shape.</p> -->
     <p class="mt-1 text-sm text-gray-700">Rp. 35.000</p>
   </div>
       </a>
@@ -241,8 +303,8 @@
           DOYYS STORE
         </div>
 
-        <p class="mt-6 max-w-md text-center leading-relaxed text-gray-700 sm:max-w-xs sm:text-left">
-Ingin lebih banyak opsi? Beritahu saya lebih detail tentang Doyys Store
+        <p class="mt-3 max-w-md leading-relaxed text-gray-700 sm:max-w-xs sm:text-left">
+          Ingin lebih banyak opsi? Beritahu saya lebih detail tentang Doyys Store
         </p>
 
         <ul class="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
@@ -316,7 +378,7 @@ Ingin lebih banyak opsi? Beritahu saya lebih detail tentang Doyys Store
             </a>
           </li>
 
-          <li>
+          <!-- <li>
             <a
               href="#"
               rel="noreferrer"
@@ -331,14 +393,14 @@ Ingin lebih banyak opsi? Beritahu saya lebih detail tentang Doyys Store
                   clip-rule="evenodd"
                 />
               </svg>
-            </a>
+            </a> -->
           </li>
         </ul>
       </div>
 
       <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
         <div class="text-center sm:text-left">
-<!--           <p class="text-lg font-medium text-gray-900">About Us</p>
+          <!-- <p class="text-lg font-medium text-gray-900">About Us</p>
 
           <ul class="mt-8 space-y-4 text-sm">
             <li>
@@ -363,9 +425,9 @@ Ingin lebih banyak opsi? Beritahu saya lebih detail tentang Doyys Store
               <a class="text-gray-700 transition hover:text-gray-700/75" href="#"> Careers </a>
             </li>
           </ul>
-        </div>
+        </div> -->
 
-        <div class="text-center sm:text-left">
+        <!-- <div class="text-center sm:text-left">
           <p class="text-lg font-medium text-gray-900">Our Services</p>
 
           <ul class="mt-8 space-y-4 text-sm">
@@ -471,9 +533,9 @@ Ingin lebih banyak opsi? Beritahu saya lebih detail tentang Doyys Store
 
                 <span class="flex-1 text-gray-700">+62-8314-8299-557</span>
               </a>
-            </li>
+            </li> -->
 
-            <li
+            <!-- <li
               class="flex items-start justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
             >
               <svg
@@ -505,7 +567,7 @@ Ingin lebih banyak opsi? Beritahu saya lebih detail tentang Doyys Store
       </div>
     </div>
 
-    <div class="mt-12 border-t border-gray-100 pt-6">
+    <div class="mt-5 border-t border-gray-100 pt-6">
       <div class="text-center sm:flex sm:justify-between sm:text-left">
         <p class="text-sm text-gray-500">
           <span class="block sm:inline">All rights reserved.</span>

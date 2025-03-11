@@ -589,11 +589,20 @@
           </a>
         </p>
 
-        <p class="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">&copy; 2024 ridhokhoer</p>
+        <p class="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0"><span id="tahun"></span> &copy; Made with ❤ by Ridho</p>
       </div>
     </div>
   </div>
     </footer>
     <!-- END FOOTER -->
+
+    <script>
+        conts tahunAwal = 2021
+        conts tahunSekarang = new Date().getFullYear()
+
+        let textTahun = tahunAwal === tahunSekarang ? tahunSekarang : `${tahunAwal}-${tahunSekarang}`
+
+        document.getElementById("tahun).innerHTML = textTahun
+    </script>
 </body>
 </html>
